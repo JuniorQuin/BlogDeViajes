@@ -25,13 +25,17 @@ div.contenedor {
 /** Navegacion **/
 .navegacion {
   background-color: #db008d;
-  /*display: none;*/
+  display: none;
+}
+.mostrar{
+  display:block;
 }
 nav {
   width: 1200px;
   margin: 0 auto;
   position: relative;
 }
+
 nav ul {
   list-style: none;
 }
@@ -63,6 +67,7 @@ nav ul ul {
 }
 nav ul li:hover > ul {
   display: block;
+  z-index:2;
 }
 nav ul li:hover  {
   background-color: rgba(0, 184,228, 0.7);

@@ -38,6 +38,10 @@ $(function(){//FORMA MAS CORTA
         
 
     }
+    $('#menu').on('click',function(){
+        $('.navegacion').addClass('mostrar');
+        
+    });
 
     /*
     var proximosViajes=['Londres','Valencia','Madrir','Paris','Milan'];
